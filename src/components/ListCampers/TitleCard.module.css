@@ -1,0 +1,36 @@
+.titleCard {
+  display: flex;
+  justify-content: space-between;
+}
+.nameCard {
+  color: #101828;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+}
+.titleHeader {
+  display: flex;
+  gap: 10px;
+}
+.heardButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #101828;
+  transition: stroke 0.3s ease-in-out;
+}
+
+.description {
+  width: 400px;
+  height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+.imgCard {
+  height: auto;
+  object-fit: cover;
+}
+.cardImg {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 310px;
+}

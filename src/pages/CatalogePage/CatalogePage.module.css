@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 35px;
+  gap: 24px;
+}

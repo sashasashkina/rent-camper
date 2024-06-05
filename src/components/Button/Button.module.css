@@ -1,0 +1,26 @@
+/* .loadMoreButton {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  border: 1px solid rgba(71, 84, 103, 0.2);
+  background-color: #fff;
+  margin-top: 50px;
+  margin-left: 371px;
+} */
+.BtnLoadMoreWra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BtnLoadMore {
+  padding: 16px 40px;
+  margin-top: 24px;
+  border-radius: 200px;
+  padding: 16px 40px;
+  width: 166px;
+  height: 56px;
+  background: #e44848;
+}

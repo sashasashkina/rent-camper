@@ -1,0 +1,25 @@
+.formPrice {
+  margin-bottom: 24px;
+}
+.price {
+  display: flex;
+  gap: 16px;
+  color: #101828;
+}
+.formRating {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #101828;
+  transition: stroke 0.3s ease-in-out;
+}
