@@ -16,24 +16,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 526px;
+  height: 310px;
 }
-/* .description {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  max-width: 525px;
-  margin-bottom: 24px;
-} */
+
 .description {
   width: 526px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-/* .description {
-  width: 400px;
-  height: 20px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin-bottom: 20px;
-} */
