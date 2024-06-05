@@ -1,11 +1,11 @@
-import React from "react";
-import DetailsCard from "./DetailsCard";
+import React from 'react';
+import DetailsCard from './DetailsCard';
 
-import PropertyCard from "./PropertyCard";
-import TitleCard from "./TitleCard";
+import PropertyCard from './PropertyCard';
+import TitleCard from './TitleCard';
 // import { BtnLoadMore  from "../Button/Button";
-import css from "./Card.module.css";
-import ButtonComponent from "../ButtonModal/ButtonModal";
+import css from './Card.module.css';
+import ButtonComponent from '../ButtonModal/ButtonModal';
 
 const Card = ({ camper }) => {
   const {
@@ -37,8 +37,8 @@ const Card = ({ camper }) => {
       <div className={css.cardImg}>
         <TitleCard camper={camper} name={name} price={price} />
         <DetailsCard rating={rating} reviews={reviews} location={location} />
-        <div className={css.description}>
-          <p className={css.descript}>{description}</p>
+        <div>
+          <p className={css.description}>{description}</p>
         </div>
         <PropertyCard
           adults={adults}

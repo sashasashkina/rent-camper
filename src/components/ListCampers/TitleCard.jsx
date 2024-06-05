@@ -1,13 +1,13 @@
-import React from "react";
-import css from "./TitleCard.module.css";
-import sprite from "../../svg/symbol-defs.svg";
-import { useDispatch } from "react-redux";
-import { updateFavoriteThunk } from "../../redux/camperThunk";
+import React from 'react';
+import css from './TitleCard.module.css';
+import sprite from '../../svg/symbol-defs.svg';
+import { useDispatch } from 'react-redux';
+import { updateFavoriteThunk } from '../../redux/camperThunk';
 
 const TitleCard = ({ name, price, camper }) => {
   const dispatch = useDispatch();
 
-  const result = (camper) => {
+  const result = camper => {
     return !camper.favorites;
   };
   const favoriteClick = () => {
@@ -21,7 +21,7 @@ const TitleCard = ({ name, price, camper }) => {
     <div className={css.titleCard}>
       <h2 className={css.nameCard}>{name}</h2>
       <div className={css.titleHeader}>
-        <h2 className={css.nameCard}>€{price?.toFixed(2)}</h2>
+        <h2 className={css.namePrice}>€{price?.toFixed(2)}</h2>
         <button
           className={css.heardButton}
           onClick={() => favoriteClick(camper)}
