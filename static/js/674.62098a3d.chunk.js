@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[674],{8674:function(e,t,r){r.r(t),r.d(t,{default:function(){return a}});var s="HomePage_title__UFLA3",c=r(184),a=function(){return(0,c.jsx)("div",{children:(0,c.jsxs)("h1",{className:s,children:['Welcome to my website "Campers"! ',(0,c.jsx)("br",{}),(0,c.jsx)("br",{}),"Good luck!",(0,c.jsx)("br",{})]})})}}}]);
+//# sourceMappingURL=674.62098a3d.chunk.js.map
